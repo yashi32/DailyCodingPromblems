@@ -1,5 +1,5 @@
-Iterative Approach
---------------------
+#Iterative Approach
+
 def sum_exist(arr,k):
     check=False
     for i in range(0,len(arr)):
@@ -11,8 +11,8 @@ def sum_exist(arr,k):
     return check
 sum_exist([10, 15, 3, 7],17)
 
-Optimized Approach
----------------------
+#Optimized Approach
+
 
 def sum_exist(arr,k):
     check=False
